@@ -7,12 +7,12 @@ public class num2 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("몇 층인지 입력하세요 : ");
+        System.out.print("몇 층인지 입력하세요>>");
 
         int a = sc.nextInt();
         int h = (a * 5);
 
-        System.out.println(h+"m"+"입니다.");
+        System.out.println(h+"m"+" 입니다.");
 
         sc.close();
     }

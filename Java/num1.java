@@ -10,13 +10,13 @@ public class num1 {
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("두 정수를 입력하세요 : ");
+        System.out.print("두 정수를 입력하세요>>");
         a = sc.nextInt();
         b = sc.nextInt();
 
         s = a+b;
 
-        System.out.println(a+"+"+b+"은\t"+s);
+        System.out.println(a+"+"+b+"은 "+s);
 
         sc.close();
     }
