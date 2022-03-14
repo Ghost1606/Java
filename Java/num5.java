@@ -1,3 +1,5 @@
+package school;
+
 import java.util.Scanner;
 
 public class num5 {
@@ -10,34 +12,24 @@ public class num5 {
 
         boolean a;
         boolean b;
-        String c;
-
+        String op;
+        
         a = sc.nextBoolean();
+        op = sc.next();
         b = sc.nextBoolean();
-        c = sc.next();
-       
-        switch(c)
+        
+ 
+        switch(op)
         {
-            case "AMD":
-            if(a == true && b == true)
-            {
-                System.out.println("true");
-            }
-            else
-            {
-                System.out.println("false");
-            }
-            break;
-            case "OR":
-            if(a == true || b == true)
-            {
-                System.out.println("true");
-            }
-            else
-            {
-                System.out.println("false");
-            }
-            break;
+        case "AND" :
+        	System.out.println(a&&b);
+        break;
+        case "OR" :
+        	System.out.println(a||b);
+        break;
+        default :
+        	System.out.println("잘못 입력 하셨습니다!");
+        break;
         }
         sc.close();
     }

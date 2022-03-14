@@ -1,3 +1,5 @@
+package school;
+
 import java.util.Scanner;
 
 public class num4 {
@@ -15,7 +17,7 @@ public class num4 {
         x = sc.nextInt();
         y = sc.nextInt();
 
-        if((x < 50) && (x < 100) && (y < 50) && (y < 100))
+        if((x > 50) && (x < 100) && (y > 50) && (y < 100))
         {
             System.out.println("점("+x+","+y+")은 "+"(50, 50)과 (100,100)의 사각형 내에 있습니다.");
         }
