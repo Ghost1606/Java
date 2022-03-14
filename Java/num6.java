@@ -12,6 +12,15 @@ public class num6 {
 		
 		int a = sc.nextInt();
 		
+		if()
+		{
+			
+		}
+		else
+		{
+			
+		}
+		
 		
 		sc.close();
 	}
