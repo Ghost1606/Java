@@ -11,18 +11,18 @@ public class num9 {
 		System.out.print("1~99 사이의 정수를 입력하세요>>");
 		
 		int a = sc.nextInt();
-		int b = 0;
 		
-		b = a/10;
-		a = a%10;
+		int b = a/10;
+		int c = a%10;
 		
-		if(a == 3 || a == 6 || a == 9)
+		
+		if(b%3 == 0 && c%3 == 0 || b%6 == 0 && c%6 == 0 || b%9 == 0 && c%9 == 0)
+		{
+			System.out.println("박수짝짝");
+		}
+		else if(b%3 == 0 || b%6 == 0 || b%9 == 0 || c%3 == 0 || c%6 == 0 || c%9 == 0 )
 		{
 			System.out.println("박수짝");
-			if(b == 3 || b == 6 || b == 9)
-			{
-				System.out.println("박수짝짝");
-			}
 		}
 		else
 		{
