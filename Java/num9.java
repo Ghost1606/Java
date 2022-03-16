@@ -16,17 +16,27 @@ public class num9 {
 		int c = a%10;
 		
 		
-		if(b%3 == 0 && c%3 == 0 || b%6 == 0 && c%6 == 0 || b%9 == 0 && c%9 == 0)
+		if(b == 3 || b == 6 || b == 9)
 		{
-			System.out.println("박수짝짝");
-		}
-		else if(b%3 == 0 || b%6 == 0 || b%9 == 0 || c%3 == 0 || c%6 == 0 || c%9 == 0 )
-		{
-			System.out.println("박수짝");
+			if(c == 3 || c == 6 || c == 9)
+			{
+				System.out.println("박수짝짝");
+			}
+			else
+			{
+				System.out.println("박수짝");
+			}
 		}
 		else
 		{
-			System.out.println("박수없음");
+			if(c == 3 || c == 6 || c == 9)
+			{
+				System.out.println("박수짝");
+			}
+			else
+			{
+				System.out.println("박수없음");
+			}
 		}
 		
 		sc.close();

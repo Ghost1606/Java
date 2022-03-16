@@ -10,22 +10,22 @@ public class num8a {
 	
 		System.out.print("커피 주문하세요>>");
 		
-		String a = sc.next();
+		String coffee = sc.next();
 		int b = sc.nextInt();
 				
-		switch(a)
+		switch(coffee)
 		{
 		case "에스프레소" :
-			System.out.println(2000*b+"원입니다.");
+			System.out.println((2000*b)+"원입니다.");
 			break;
 		case "아메리카노" :
-			System.out.println(2500*b+"원입니다.");
+			System.out.println((2500*b)+"원입니다.");
 			break;
 		case "카푸치노" :
-			System.out.println(3000*b+"원입니다.");
+			System.out.println((3000*b)+"원입니다.");
 			break;
 		case "카페라떼" :
-			System.out.println(3500*b+"원입니다.");
+			System.out.println((3500*b)+"원입니다.");
 			break;
 		default :
 			System.out.println("메뉴가 없습니다!");

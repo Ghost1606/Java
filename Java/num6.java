@@ -30,7 +30,7 @@ public class num6 {
 			money = money % 10;
 			eli = money / 1;
 			
-			System.out.println("오만원"+oman+"개, "+"만원"+man+"개, "+"천원"+chen+"개, "+"500원"+obeak+"개, "+"백원"+beak+"개, "+"10원"+sib+"개, "+"1원"+eli+"개");
+			System.out.println("오만원"+oman+"개, "+"만원"+man+"개, "+"천원"+chen+"개, "+"500원"+obeak+"개, "+"100원"+beak+"개, "+"10원"+sib+"개, "+"1원"+eli+"개");
 		}	
 		sc.close();	
 	}

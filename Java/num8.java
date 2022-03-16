@@ -15,19 +15,19 @@ public class num8 {
 		
 		if(coffee.equals("에스프레소"))
 		{
-			System.out.println(2000*a+"원입니다.");
+			System.out.println((2000*a)+"원입니다.");
 		}
 		else if(coffee.equals("아메리카노"))
 		{
-			System.out.println(2500*a+"원입니다.");
+			System.out.println((2500*a)+"원입니다.");
 		}
 		else if(coffee.equals("카푸치노"))
 		{
-			System.out.println(3000*a+"원입니다.");
+			System.out.println((3000*a)+"원입니다.");
 		}
 		else if(coffee.equals("카페라떼"))
 		{
-			System.out.println(3500*a+"원입니다.");
+			System.out.println((3500*a)+"원입니다.");
 		}
 		else
 		{
