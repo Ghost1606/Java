@@ -10,8 +10,7 @@ public class num5 {
 
         System.out.print("논리 연산을 입력하세요>>");
 
-        boolean a;
-        boolean b;
+        boolean a,b;
         String op;
         
         a = sc.nextBoolean();
