@@ -1,11 +1,8 @@
 package school;
 
-import java.util.Scanner;
-
 public class RandomArray {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
 			
 		int intArray[][]; 
 		intArray = new int[3][4]; 
@@ -28,6 +25,6 @@ public class RandomArray {
 				}
 			i++;
 		}
-		System.out.println("ÇÕÀº "+sum);
+		System.out.println("Ã‡Ã•Ã€Âº "+sum);
 	}
 }
